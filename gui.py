@@ -11,7 +11,7 @@ def org(text, bot):
         now = datetime.datetime.now()
 
         # Send a WhatsApp message to a group
-        kit.sendwhatmsg_to_group("FRErhhwvD17DMXrqU2wixb", text2, now.hour, now.minute + 2)
+        kit.sendwhatmsg_to_group("FssBhoVjvG3CkiYE15eB88", text2, now.hour, now.minute + 2)
         return "Auto done"
     else:
         return text2 if text2 else "No text entered"
