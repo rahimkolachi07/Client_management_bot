@@ -8,7 +8,7 @@ def org(text,sig):
         now = datetime.datetime.now()
 
         # Send a WhatsApp message to a group
-        kit.sendwhatmsg_to_group("FRErhhwvD17DMXrqU2wixb", text, now.hour, now.minute + 2)
+        kit.sendwhatmsg_to_group("FssBhoVjvG3CkiYE15eB88", text, now.hour, now.minute + 2)
         return "Auto done"
     else :
         return
